@@ -1,0 +1,11 @@
+framework module MRZScanner {
+  umbrella header "MRZScanner.h"
+
+  export *
+  module * { export * }
+}
+
+module MRZScanner.Swift {
+    header "MRZScanner-Swift.h"
+    requires objc
+}
