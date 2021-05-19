@@ -1,0 +1,16 @@
+PODS:
+  - MRZScanner (0.1.0)
+
+DEPENDENCIES:
+  - MRZScanner (from `../`)
+
+EXTERNAL SOURCES:
+  MRZScanner:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MRZScanner: 5702af35da0607f697884e178d769952fb357f1d
+
+PODFILE CHECKSUM: c273ad8c12c8a1fd21b2b4d53ec53a1139bf69b9
+
+COCOAPODS: 1.10.1

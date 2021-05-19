@@ -1,0 +1,6 @@
+framework module MRZScanner {
+  umbrella header "MRZScanner-umbrella.h"
+
+  export *
+  module * { export * }
+}
