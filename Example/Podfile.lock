@@ -1,16 +1,23 @@
 PODS:
-  - MRZScanner (0.1.0)
+  - MRZScanner (0.1.0):
+    - OpenCV2 (~> 3.4)
+  - OpenCV2 (3.4.10)
 
 DEPENDENCIES:
   - MRZScanner (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - OpenCV2
 
 EXTERNAL SOURCES:
   MRZScanner:
     :path: "../"
 
 SPEC CHECKSUMS:
-  MRZScanner: 5702af35da0607f697884e178d769952fb357f1d
+  MRZScanner: 364ebf7e9c53713bc8c16c1ab8063708e326ddd8
+  OpenCV2: 508d6c0ce3bb343591ef2375036ea60511cbd187
 
-PODFILE CHECKSUM: c273ad8c12c8a1fd21b2b4d53ec53a1139bf69b9
+PODFILE CHECKSUM: dcb09e36e51835708a5d0ce3977cdcdedb949186
 
 COCOAPODS: 1.10.1

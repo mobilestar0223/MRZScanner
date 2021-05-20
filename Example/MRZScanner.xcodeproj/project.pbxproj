@@ -207,7 +207,6 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				70FC4AC629A105A7E94AA7B4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -248,7 +247,7 @@
 				ORGANIZATIONNAME = mobilestar0223;
 				TargetAttributes = {
 					6003F589195388D20070C39A = {
-						DevelopmentTeam = W88KV55ZTR;
+						DevelopmentTeam = U3ZUX9Q8BQ;
 					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
@@ -318,24 +317,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		70FC4AC629A105A7E94AA7B4 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MRZScanner_Example/Pods-MRZScanner_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/MRZScanner/MRZScanner.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MRZScanner.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MRZScanner_Example/Pods-MRZScanner_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		D47DFDB0613DFA172792C9EC /* [CP] Check Pods Manifest.lock */ = {
@@ -497,8 +478,7 @@
 			baseConfigurationReference = 689E0D0C39A3320FA332D680 /* Pods-MRZScanner_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = W88KV55ZTR;
-				ENABLE_BITCODE = NO;
+				DEVELOPMENT_TEAM = U3ZUX9Q8BQ;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MRZScanner/MRZScanner-Prefix.pch";
 				INFOPLIST_FILE = "MRZScanner/MRZScanner-Info.plist";
@@ -516,8 +496,7 @@
 			baseConfigurationReference = 088C7DFDDDF3BE655B957522 /* Pods-MRZScanner_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = W88KV55ZTR;
-				ENABLE_BITCODE = NO;
+				DEVELOPMENT_TEAM = U3ZUX9Q8BQ;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MRZScanner/MRZScanner-Prefix.pch";
 				INFOPLIST_FILE = "MRZScanner/MRZScanner-Info.plist";
