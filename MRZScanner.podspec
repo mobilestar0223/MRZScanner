@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MRZScanner'
-  s.version          = '1.0.3'
+  s.version          = '1.0.4'
   s.summary          = 'Library for scan MRZ'
 
 # This description is used to generate tags and improve search results.
@@ -18,6 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = 'Library for scan MRZ'
+
   s.homepage         = 'https://github.com/mobilestar0223/MRZScanner'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
@@ -28,12 +29,12 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '12.0'
 
   s.source_files = 'MRZScanner/Classes/**/*'
-  s.exclude_files = 'MRZScanner/**/*.plist'
+  
   # s.resource_bundles = {
   #   'MRZScanner' => ['MRZScanner/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-   s.frameworks = 'UIKit', 'MRZEngine'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  # s.frameworks = 'UIKit', 'MapKit'
+  s.vendored_frameworks = 'Frameworks/MRZEngine.xcframework'
 end

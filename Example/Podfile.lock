@@ -1,5 +1,5 @@
 PODS:
-  - MRZScanner (1.0.1)
+  - MRZScanner (1.0.4)
 
 DEPENDENCIES:
   - MRZScanner (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  MRZScanner: 99f90407308365ed27dea8f55906dccfa55318dd
+  MRZScanner: 6949d6d3999195eec31cde49b75b6f6d4472eade
 
-PODFILE CHECKSUM: 9da8ea9c61b25175ca960669bc0fd33d68eb05f4
+PODFILE CHECKSUM: dcb09e36e51835708a5d0ce3977cdcdedb949186
 
 COCOAPODS: 1.10.1

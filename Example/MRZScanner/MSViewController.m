@@ -7,7 +7,6 @@
 //
 
 #import "MSViewController.h"
-#import <MRZScanner/MRZScanner.h>
 
 @interface MSViewController ()
 
@@ -20,7 +19,7 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     
-    [MRZScanner initialize];
+//    [MRZScanner initialize];
 }
 
 - (void)didReceiveMemoryWarning

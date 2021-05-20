@@ -1,6 +1,0 @@
-framework module MRZEngine {
-  umbrella header "MRZEngine.h"
-
-  export *
-  module * { export * }
-}
