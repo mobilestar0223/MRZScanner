@@ -1,6 +1,6 @@
 use_frameworks!
 
-platform :ios, '9.0'
+platform :ios, '12.0'
 
 target 'MRZScanner_Example' do
   pod 'MRZScanner', :path => '../'
@@ -10,4 +10,15 @@ target 'MRZScanner_Example' do
 
     
   end
+  
+  post_install do |installer|
+      installer.pods_project.targets.each do |target|
+          if target.name == "MRZScanner"
+              target.build_configurations.each do |config|
+                  config.build_settings['ENABLE_BITCODE'] = 'NO'
+              end
+          end
+      end
+  end
+  
 end
